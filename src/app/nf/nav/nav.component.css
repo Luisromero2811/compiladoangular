@@ -1,0 +1,31 @@
+.body{
+    background-color: #023047;
+    padding: 10px;
+}
+.div img{
+    background-image: url(../../../../../Iconos/55.png);
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    margin-left: 20px;
+    background-size: contain;
+    border-radius: 100%;
+    background-color: #6ffa9c;
+}
+.btn{
+    background-color: #6ffa9c;
+    width: 180px;
+   
+}
+.principal{
+    display: flex;
+}
+.divbutton{
+    margin-left: auto;
+    padding-top: 25px;
+    padding-right: 10px;
+}
+.label{
+    color: #f9f9f9;
+    margin-top: 30px;
+}

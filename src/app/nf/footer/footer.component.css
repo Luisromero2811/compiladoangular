@@ -1,0 +1,37 @@
+.footer{
+    background-color: #023047;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.div img{
+    background-image: url(../../../../../Imagenes/LogotipoHF.png);
+    width: 120px;
+    height: 90px;
+    margin: 10px;
+    margin-left: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+
+}
+.general{
+    display: flex;
+}
+.parrafo1{
+    color: #f9f9f9;
+    margin-left: 0.5%;
+    margin-top: 1%;
+}
+.parrafo2{
+    color: #f9f9f9;
+    margin: 0 auto 0;
+    margin-top: 5.8%;
+}
+.parrafo3{
+    color: #f9f9f9;
+    margin-right: 2%;
+}
+.contacto{
+    color: #6ffa9c;
+}

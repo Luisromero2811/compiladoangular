@@ -1,0 +1,82 @@
+.registro{
+    margin-left: 10px;
+    margin-top: 20px;
+    }
+.reg{
+    background-image: url(../../../../../Iconos/1.png);
+    width: 170px;
+    height: 170px;
+    background-size: contain;
+    background-position: center;
+    background-position-x: 10px;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    border-color: #6ffa9c;
+    background-color: #6ffa9c;
+    color: #f9f9f9;
+}
+.R{
+    bottom: 0%;
+    position: relative;
+}
+.listas{
+    width: 410px;
+}
+.list{
+    background-image: url(../../../../../Iconos/2.png);
+    width: 170px;
+    height: 170px;
+    background-size: contain;
+    background-position: center;
+    background-position-x: 5px;
+    background-position-y: 5px;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    border-color: #6ffa9c;
+    background-color: #6ffa9c;
+}
+.historial{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.hist{
+    background-image: url(../../../../../Iconos/Historial.png);
+    width: 170px;
+    height: 170px;
+    background-size: contain;
+    background-position: center;
+    background-position-x: 10px;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    border-color: #6ffa9c;
+    background-color: #6ffa9c;
+}
+.pagos{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.pag{
+    background-image: url(../../../../../Iconos/4.png);
+    width: 170px;
+    height: 170px;
+    background-size: contain;
+    background-position: center;
+    background-position-x: 2px;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    border-color: #6ffa9c;
+    background-color: #6ffa9c;
+}
+.principal{
+    display: flex;
+}
+.principal2 {
+    display: flex;
+}
+.container2{
+    width: 60%;
+}
+.container{
+    border-right:2px solid #9b9b9b ;
+    
+}

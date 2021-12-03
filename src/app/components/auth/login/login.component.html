@@ -1,0 +1,32 @@
+<div class="background text-center">
+    <form
+      class="form-signin animated fadeIn form-color"
+      autocomplete="off"
+      [formGroup]="loginForm"
+      (ngSubmit)="login()"
+    >
+      <h1 class="h3 font-weight-normal">Iniciar Sesión</h1>
+      <input
+        type="email"
+        class="form-control mb-4 mt-4"
+        id="inputEmail"
+        placeholder="Correo Electronico"
+        formControlName="email"
+        [class.is-invalid]="emailValidate"
+      />
+      <input
+        type="password"
+        class="form-control mb-4"
+        id="inputPassword"
+        placeholder="Contraseña"
+        formControlName="password"
+        [class.is-invalid]="passwordValidate"
+      />
+      <button type="submit" class="btn btn-primary btn-block mb-2">
+        Ingresar
+      </button>
+      <div>
+        <a [routerLink]="['/register']" class="link">¿Aún no tienes una cuenta?</a>
+      </div>
+    </form>
+  </div>

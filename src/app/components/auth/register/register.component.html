@@ -1,0 +1,50 @@
+<div class="background text-center">
+    <form
+      class="form-signin animated fadeIn"
+      autocomplete="off"
+      [formGroup]="registerForm"
+      (ngSubmit)="register()"
+    >
+      <h1 class="h3 font-weight-normal">Registrate</h1>
+     <input
+        type="text"
+        class="form-control"
+        id="inputName"
+        placeholder="Nombre Completo"
+        formControlName="Nombre"
+      />
+      <input
+        type="email"
+        class="form-control"
+        id="inputEmail"
+        placeholder="Correo Electronico"
+        formControlName="email"
+        [class.is-invalid]="emailValidate"
+      />
+      
+      <input
+        type="password"
+        class="form-control pass"
+        id="inputPassword"
+        placeholder="Contraseña"
+        formControlName="password"
+        [class.is-invalid]="passwordValidate"
+      />    
+      <input
+        type="password"
+        class="form-control pass2"
+        id="inputPassword2"
+        placeholder="Confirmar Contraseña"
+        formControlName="password2"
+        [class.is-invalid]="password2Validate"
+      />
+  
+      <button type="submit" class="btn btn-primary btn-block mb-2" [disabled]="password2Validate"> 
+        Registrar
+      </button>
+      <!--<a routerLink="/login">Don't you have an account?</a>-->
+      <div>
+      <a routerLink='/login' class="link">¿Ya tienes una cuenta?</a>
+      </div>
+    </form>
+  </div>
