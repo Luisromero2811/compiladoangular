@@ -14,6 +14,6 @@ apiURL = environment.apiURL;
     return this.http.post(this.apiURL+'users',user);
   }
   login(user: User):Observable<any>{
-    return this.http.post(this.apiURL+'login', user);
+    return this.http.post(`http://api.fithealth.website/login`, user);
   }
 }
