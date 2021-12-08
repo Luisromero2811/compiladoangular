@@ -14,7 +14,7 @@ export class PagoComponent implements OnInit {
   }
   click(): void{
     timeMessage('Iniciando', 1500).then(() => {
-      successDialog('Alumno Registrado').then(()=> {
+      successDialog('Pago Registrado').then(()=> {
         
       });
   
