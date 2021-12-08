@@ -8,12 +8,12 @@ import { User } from '../models/user';
 })
 export class AuthService {
 apiURL = environment.apiURL;
-  constructor(private http:HttpClient) { }
+  constructor(private https:HttpClient) { }
 
   register(user: User):Observable<any>{
-    return this.http.post(this.apiURL+'users',user);
+    return this.https.post(this.apiURL+'users',user);
   }
   login(user: User):Observable<any>{
-    return this.http.post(`http://api.fithealth.website/login`, user);
+    return this.https.post('https://api.fithealth.website/login', user);
   }
 }
