@@ -105,16 +105,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: x-large;
 }
-.calendar{
-    margin-right: 100px;
-    
+.accordion{
+    margin-left: 20px;
+    margin-top: -50px;
 }
-ol{
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    list-style: none;
-    padding: 0;
-  }
-  .first-day {
-    grid-column-start: 6
-  }
