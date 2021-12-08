@@ -1,0 +1,22 @@
+.loo{
+  background-color:#023047;
+  width: 500px;
+  height: 50px;
+  margin-left: 180px;
+  margin-top: 10px;
+  color: #f9f9f9;
+  text-align: center;
+  font-size: 40px;
+}
+.Body{
+  width: 500px;
+  margin-left: 180px;
+  margin-top: 10px;
+}
+.btn{
+  background-color: #6ff49c;
+  border-radius: 5px;
+  width: 500px;
+  height: 50px;
+  margin-top: 10px;
+}

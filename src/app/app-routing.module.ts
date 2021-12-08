@@ -9,11 +9,14 @@ import { HistorialComponent } from './H/historial/historial.component';
 import { ListasComponent } from './L/listas/listas.component';
 import { PagoComponent } from './P/pago/pago.component';
 
+import { TableroComponent } from './T/tablero/tablero.component';
 const routes: Routes = [
   {path:'login', component: LoginComponent},
   {path:'register', component: RegisterComponent},
   //Ruta hacia el registro de alumnado
   {path: 'Registro', component: RegistroComponent},
+  //Ruta para tablero
+  {path: 'Tablero', component: TableroComponent},
   //Ruta hacia el historial de alumnado
   {path: 'Historial', component: HistorialComponent},
   //Ruta hacia el listado de alumnado

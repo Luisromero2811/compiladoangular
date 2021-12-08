@@ -1,179 +1,82 @@
 .Body{
-    width: 100px;
-    height: 100px;
-}
-.botonaccion{
-  background-image: url(../../../assets/22.png);
-  -webkit-border-radius: 80px;
-  -moz-border-radius: 100px;
-  border-radius:100px;
-  background-color:#6ffa9c;
-}
-.button{
-
-  
   width: 100px;
   height: 100px;
-  
-  float:left;
+  margin-left: 285px;
 }
-.content {
-    display: flex;
-    margin: 20px;
-    padding: 0 16px;
-    max-width: 60%;
+.con{    
+background-color:#023047;
+width: 500px;
+height: 50px;
+margin-left: -70px;
+margin-top: 10px;
+color: #f9f9f9;
+text-align: center;
+font-size: 40px;
+}
+.registro{
+  margin-left: 10px;
+  margin-top: 10px;
   }
-  .boton{
-    width:240px;
-    height:240px;
-    background-color:#6ffa9c;
-    margin: 10px;
-    padding:5px;
-    -webkit-border-radius: 80px;
-    -moz-border-radius: 100px;
-    border-radius:500px;
-    font-size:30px;
-    line-height:400px;
-    text-transform: uppercase;
-    float:left ;
-    text-decoration:none;
-    color: #f9f9f9;
-  
-  }
-  .boton a{
-    margin-left: 100px;
-   text-align: left;
- 
-  }
-  #un{
-    margin: 30px;
-    float:center ;  
-    margin-right: -120px;
-    margin-top: -110px;
-  }
-  .bot{
-    width:240px;
-    height:240px;
-    background-color:#6ffa9c;
-    margin: 10px;
-    padding:5px;
-    -webkit-border-radius: 80px;
-    -moz-border-radius: 100px;
-    border-radius:500px;
-    font-size:30px;
-    line-height:400px;
-    text-transform: uppercase;
-    float:left;
-    text-decoration:none;
-    color:#f9f9f9; 
-  }
-  
-  .bot a{
-    
-    margin-right: -400px; 
-    text-decoration:none;
-  }
-  #uno{
-    
-   margin: 30px;
-   float:center;  
-   margin-right: -130px;
-   margin-top: -100px;
-  }
-  .boton1{
-    width:240px;
-    height:240px;
-    background-color:#6ffa9c;
-    margin: 10px;
-    padding:5px;
-    -webkit-border-radius: 80px;
-    -moz-border-radius: 100px;
-    border-radius:500px;
-    font-size:30px;
-    line-height:400px;
-    text-transform: uppercase;
-    float:left;
-    text-decoration:none;
-    color:#f9f9f9;
-  }
-  
-  .boton1 a{
-   
-    text-decoration:none;
-   
-  }
-  #dos{
-    margin: 30px;
-   float:center;  
-   margin-right: -96px;
-   margin-top: 50px;
-  } 
-  .boton11{
-    width:240px;
-    height:240px;
-    background-color:#6ffa9c;
-    margin: 10px;
-    padding:5px;
-    -webkit-border-radius: 80px;
-    -moz-border-radius: 100px;
-    border-radius:500px;
-    font-size:30px;
-    line-height:400px;
-    text-transform: uppercase;
-    float:left;
-    text-decoration:none;
-    color:#f9f9f9;
-  }
-  
-  .boton11 a{
-   
-    text-decoration:none;
-   
-
-  } 
-  #tres{
-    margin: 30px;
-   float:center;  
-   margin-right: -155px;
-   margin-top: -100px;
-
-   }
-   .content2 {
-    display: flex;
-    max-width: 1350px;
-    flex-direction: column;
-  }
-  .con{
-     
-    background-color: #023047;
-    width: 400px;
-    height: 50;;
-    color: #f9f9f9;
-    font-size: 40px;
-    text-align: center;
-  }
-   .boto{
-    width:90px;
-    height:90px;
-    background-color:#6ffa9c;
-    margin: 10px;
-    padding:50px;
-    -webkit-border-radius: 80px;
-    -moz-border-radius: 100px;
-    border-radius:500px;
-    text-transform: uppercase;
-    float:right;
-
-  }
-  .boto a{
-    color:#f9f9f9;
-    text-decoration:none;
-    margin: 28px;
-    padding:0px;
-    line-height:200px;
-    font-size:15px;
-  }
-  #yo{
-    margin-left: -80px;
-   margin-top: -45px;
-  }
+.reg-basquet{
+  background-image: url(../../../assets/44.png);
+  width: 150px;
+  height: 150px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  border-color: #6ffa9c;
+  background-color: #6ffa9c;
+  color: #f9f9f9;
+}
+.R{
+  bottom: 0%;
+  position: relative;
+}
+.listas{
+  width: 365px;
+}
+.list-volley{
+  background-image: url(../../../assets/11.png);
+  width: 150px;
+  height: 150px;
+  background-size: contain;
+  background-position: center;
+  background-position-x: 1px;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  border-color: #6ffa9c;
+  background-color: #6ffa9c;
+}
+.historial{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.hist-natacion{
+  background-image: url(../../../assets/22.png);
+  width: 150px;
+  height: 150px;
+  background-size: contain;
+  background-position: center;
+  background-position-x: 1px;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  border-color: #6ffa9c;
+  background-color: #6ffa9c;
+}
+.pagos{
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.pag-soccer{
+  background-image: url(../../../assets/33.png);
+  width: 150px;
+  height: 150px;
+  background-size: contain;
+  background-position: center;
+  background-position-x: 4px;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  border-color: #6ffa9c;
+  background-color: #6ffa9c;
+}

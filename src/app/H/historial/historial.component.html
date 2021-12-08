@@ -1,1 +1,60 @@
-<p>historial works!</p>
+<body class="Body">
+    <div class="uno"><a>Historial de Alumnado</a></div>
+<div class="" role="main">
+  <div class="d-flex listas flex-wrap m-2">
+    <div class="registro">
+        <button class="reg-basquet" data-bs-toggle="modal" data-bs-target="#exampleModal">  </button>
+    </div>
+    <div class="registro">
+        <button class="list-volley"></button>
+    </div>
+    <div class="registro">
+        <button class="hist-natacion"></button>
+    </div>
+    <div class="registro">
+        <button class="pag-soccer"></button>
+    </div>
+</div>
+</div>
+<app-iconos *ngIf="ShowVolley" class="container2"></app-iconos>
+</body>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Historial Basquetball</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <ul class="list-group">
+                <li class="list-group-item" data-bs-toggle="modal" data-bs-target="#exampleModal2">Luis Romero</li>
+                <li class="list-group-item">Mariana Rivera</li>
+                <li class="list-group-item">Jared Riesco</li>
+                <li class="list-group-item">Guillermo Cárdenas</li>
+                <li class="list-group-item">Mariana Meza</li>
+              </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+           <p>Luis Romero</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>

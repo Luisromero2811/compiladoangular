@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./body.component.css']
 })
 export class BodyComponent implements OnInit {
-  ShowRegister = true;
+  
+  ShowTablero = true;
+  ShowRegister = false;
   ShowList= false;
   ShowHist= false;
   ShowPay= false;
@@ -16,24 +18,28 @@ export class BodyComponent implements OnInit {
     this.ShowHist = false
     this.ShowList = false
     this.ShowPay = false
+    this.ShowTablero = false
   }
   ShowLists(){
     this.ShowList = true
     this.ShowHist = false
     this.ShowRegister = false
     this.ShowPay = false
+    this.ShowTablero = false
   }
   ShowHistorial(){
     this.ShowHist = true
     this.ShowRegister = false
     this.ShowList = false
     this.ShowPay = false
+    this.ShowTablero = false
   }
   ShowPays(){
     this.ShowPay = true
     this.ShowHist = false
     this.ShowList = false
     this.ShowRegister = false
+    this.ShowTablero = false
   }
   ngOnInit(): void {
   }
