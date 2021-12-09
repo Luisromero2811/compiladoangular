@@ -3424,7 +3424,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "login",
         value: function login(user) {
-          return this.https.post('https://api.fithealth.website/login', user);
+          return this.https.post('https://adonis.fithealth.website/login', user);
         }
       }]);
 
@@ -3480,7 +3480,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var environment = {
       production: true,
-      apiURL: 'https://api.fithealth.website/'
+      apiURL: 'https://adonis.fithealth.website/'
     };
     /***/
   },

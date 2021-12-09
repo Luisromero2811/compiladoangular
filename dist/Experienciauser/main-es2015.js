@@ -1738,7 +1738,7 @@ class AuthService {
         return this.https.post(this.apiURL + 'users', user);
     }
     login(user) {
-        return this.https.post('https://api.fithealth.website/login', user);
+        return this.https.post('https://adonis.fithealth.website/login', user);
     }
 }
 AuthService.ɵfac = function AuthService_Factory(t) { return new (t || AuthService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"])); };
@@ -1765,7 +1765,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
 const environment = {
     production: true,
-    apiURL: 'https://api.fithealth.website/'
+    apiURL: 'https://adonis.fithealth.website/'
 };
 
 
