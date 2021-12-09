@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiURL: 'https://api.fithealth.website/'
+  apiURL: 'https://adonis.fithealth.website/'
 };
